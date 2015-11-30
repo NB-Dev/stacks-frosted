@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleIdentifier</key>
+	<string>de.northbridge_development.stacks.Frosted</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>RWAddonAuthor</key>
+	<string>Northbridge Development Konrad &amp; Schneider GbR</string>
+	<key>RWAddonManagerIconAsset</key>
+	<string>icon</string>
+	<key>RWAddonSupportURL</key>
+	<string>http://www.northbridge-development.de/open_source/index.html#stack-frosted</string>
+	<key>author</key>
+	<string>Northbridge Development Konrad &amp; Schneider GbR</string>
+	<key>customItems</key>
+	<array>
+		<dict>
+			<key>clearValue</key>
+			<string>25</string>
+			<key>default</key>
+			<integer>25</integer>
+			<key>id</key>
+			<string>margin</string>
+			<key>min</key>
+			<string>1</string>
+			<key>rounding</key>
+			<true/>
+			<key>title</key>
+			<string>Vertical margin</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>clearValue</key>
+			<string>25</string>
+			<key>default</key>
+			<integer>25</integer>
+			<key>id</key>
+			<string>size</string>
+			<key>min</key>
+			<string>1</string>
+			<key>rounding</key>
+			<true/>
+			<key>title</key>
+			<string>Dot size</string>
+			<key>type</key>
+			<string>number</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+		<dict>
+			<key>allowsOpacity</key>
+			<true/>
+			<key>default</key>
+			<string>rgba(200, 200, 200, 1)</string>
+			<key>id</key>
+			<string>color</string>
+			<key>title</key>
+			<string>Dot color</string>
+			<key>type</key>
+			<string>color</string>
+			<key>units</key>
+			<string>px</string>
+		</dict>
+	</array>
+	<key>group</key>
+	<string>Design</string>
+	<key>helpURL</key>
+	<string>http://www.northbridge-development.de/open_source/index.html#stack-frosted</string>
+	<key>icon</key>
+	<string>icon</string>
+	<key>infoURL</key>
+	<string>http://www.northbridge-development.de/open_source/index.html#stack-frosted</string>
+	<key>subtitle</key>
+	<string>A stack with a frosted glass effect as background</string>
+	<key>tags</key>
+	<array>
+		<string>Design</string>
+	</array>
+	<key>templates</key>
+	<array>
+		<dict>
+			<key>filename</key>
+			<string>template.html</string>
+			<key>scope</key>
+			<string>each</string>
+			<key>type</key>
+			<string>html</string>
+		</dict>
+		<dict>
+			<key>filename</key>
+			<string>styles.css</string>
+			<key>scope</key>
+			<string>page</string>
+			<key>type</key>
+			<string>css</string>
+		</dict>
+	</array>
+	<key>title</key>
+	<string>Frosted</string>
+</dict>
+</plist>
