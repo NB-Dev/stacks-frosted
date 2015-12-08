@@ -30,3 +30,6 @@ white and40% translucent.
 
 ###v.1.0.0
 - Initial checkin
+
+## Maintainers
+This Project is maintaned by [Northbridge Development Konrad & Schneider GbR](http://www.northbridge-development.de) Softwareentwicklung
